@@ -43,6 +43,24 @@ app.get("/brands", (req, res) => {
   })
 })
 
+app.post("/sub-brands", (req, res) => {
+  const brand = req.body.brand;
+  const query = `select * from subbrands`;
+
+  connection.query(query, (error,result) => {
+    if(error){
+      res.status(500).send(error);
+      return;
+    }
+
+    const subBrands = result.filter((value, index) => {
+      return value.brand == brand;
+    })
+
+    res.status(200).send(subBrands);
+  })
+})
+
 
 app.post("/submit", (req, res) => {
   const name = req.body.name;
