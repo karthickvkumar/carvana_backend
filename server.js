@@ -46,6 +46,23 @@ app.get("/brands", (req, res) => {
 app.post("/sub-brands", (req, res) => {
   const brand = req.body.brand;
   const query = `select * from subbrands`;
+  
+  connection.query(query, (error,result) => {
+    if(error){
+      res.status(500).send(error);
+      return;
+    }
+    
+    const subBrands = result.filter((value, index) => {
+      return value.brand == brand;
+    })
+    
+    res.status(200).send(subBrands);
+  })
+})
+
+app.get("/rangeOfCars", (req, res) => {
+  const query = `select * from rangeOfCars`;
 
   connection.query(query, (error,result) => {
     if(error){
@@ -53,21 +70,30 @@ app.post("/sub-brands", (req, res) => {
       return;
     }
 
-    const subBrands = result.filter((value, index) => {
-      return value.brand == brand;
-    })
-
-    res.status(200).send(subBrands);
+    res.status(200).send(result);
   })
 })
 
 
+app.get("/preOwnedCars", (req, res) => {
+  const query = `select * from preOwnedCars`;
+
+  connection.query(query, (error,result) => {
+    if(error){
+      res.status(500).send(error);
+      return;
+    }
+
+    res.status(200).send(result);
+  })
+})
+
 app.post("/submit", (req, res) => {
   const name = req.body.name;
+  const subject = req.body.subject;
   const message = req.body.message;
-  const mobile = req.body.mobile;
 
-  const query = `insert into contactUs (name, message, mobile) values ('${name}', '${message}', ${mobile})`;
+  const query = `insert into contactUs (name, subject, message) values ('${name}', '${subject}', ${message})`;
 
   connection.query(query, (error, result) => {
     if(error){

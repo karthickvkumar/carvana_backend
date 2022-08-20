@@ -163,3 +163,99 @@ INSERT INTO rangeOfCars(name,brand,image) VALUES ('Electric','Electric','https:/
 
 use carvana;
 select * from rangeOfCars;
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2019 Tesla Model','$160,990','Electric','https://tesla-cdn.thron.com/delivery/public/image/tesla/3863f3e5-546a-4b22-bcbc-1f8ee0479744/bvlatuR/std/1200x628/MX-Social');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2019 Tesla Model','$120,990','Electric','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpOkKoIS1fSitjubxTpknIeuEI1zm6NpkaWuoF_7x--_qDd1hyILIQQkXCt8JzAKZ3Xpw&usqp=CAU');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2019 Tesla Model','$200,990','Electric','https://cdn.motor1.com/images/mgl/W88ob1/s3/tesla-model-y-charging.jpg');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2019 Tesla Model','$150,990','Electric','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVW4KFQshHdkheYiCGxGK51ly17Kt2Wx3rRAhV6ePNJPkkYHE9Ajqkn-oSqGEvRSQsHBQ&usqp=CAU');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2019 Jeep Wrangler','$20,990','Jeep','https://www.rushlane.com/wp-content/uploads/2021/02/2021-jeep-wrangler-rubicon-india-made-spied-launch-15-march-2-600x338.jpg');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2019 Jeep Wrangler','$20,990','Jeep','https://cdn.motor1.com/images/mgl/vRVZA/s1/jeep-wrangler.jpg');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2019 Jeep Wrangler','$20,990','Jeep','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKTZb2REOtpHt_Ywrqg8ez9CIqeTtn739RjLBCV-5qlxOHXCGyzOC2Y_fhA-XzN4FDlyc&usqp=CAU');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2019 Jeep Wrangler','$20,990','Jeep','https://www.jeep.co.uk/content/dam/jeep/crossmarket/model/wrangler-JL/trims-4d/rubicon/465/monotone/black.png');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2019 Mercedes Benz','$10,990','Coupes','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvmH-1rubWma0tMJwi_ccWJgYymseNBa6H1Q&usqp=CAU');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2019 Mercedes Benz','$20,990','Coupes','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2bw7rRHGXx_rQ1bHJo71kqf5Ti1FIRaV6Ogz0oNkqWV7qSPzSK12_K5tWQLZo5tRyQZU&usqp=CAU');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2019 BMW','$20,990','Coupes','https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/all-models/i-series/i4/2021/bmw-i4-edrive-40-modelfinder-320x192.png');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2019 BMW','$20,990','Coupes','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFnScA-VufI51GbSJ3LG0rYEBsdBLNV2wkLUrQf8K1LgxBJz74LikfpjbTt9RELjKMs0M&usqp=CAU');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2019 Volkswagen','$20,990','Hatchback','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMnT3gX9jvUVye4nZg2LKzY_5VF_gVTHznZorhizJdFOphHX7jBlO5f1twn0T_yV4IRwI&usqp=CAU');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2019 Volkswagen','$40,990','Hatchback','https://imgd.aeplcdn.com/664x374/cw/ec/22548/Volkswagen-Passat-Headlamps-135233.jpg?wm=0&q=75');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2019 Volkswagen','$10,990','Hatchback','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPOtq6cIByULCylw32Kcc12OuwBRdZZ8EfSnWeWriTYzF2jCvGkqc_NfzcVD2CJ1KHOdU&usqp=CAU');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2019 Volkswagen','$20,990','Hatchback','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDpcyC8SdqRw890cLcoQxBvWLZ2vKjKAoqDTTYg8CqZazoQfJTtJx_zBceVLGn11Xu7EE&usqp=CAU');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2020 Honda Brio','$12,990','Small-Car','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHOJQlUe0WgcfhtkgfVKOnlw58W940noSjjI39ehnnGYtsXE1hrgGtylEKvFeAwYpYktQ&usqp=CAU');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2020 Honda Brio','$12,990','Small-Car','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrV7VyglN-yjDtFApWP9TQyekS_K_oPZeEL1djDUeX7q1RfGnfcZXrMv3aNJM3JLw_zd4&usqp=CAU');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2020 Honda Brio','$12,990','Small-Car','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIXdOS25ydCIA0chgbIBNcWlLP1EcWCDvKqnN3Z9s5S3aNk9zz6_Nwkv674hVkNxkA8Tk&usqp=CAU');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2020 Honda Brio','$12,990','Small-Car','https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/800x450/format/jpg/quality/85/http://www.blogcdn.com/www.autoblog.com/media/2010/11/01-brio-630.jpg');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2019 Toyato','$32,990','SUV','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI53bNChH6NKZNPYaTBlPRo7s1porqQEOxZ5Vg-fvjaBIJZPPVkA_scXSyRgjCmo7KR28&usqp=CAU');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2020 Toyato','$32,990','SUV','https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Cadillac_Escalade_GMTT1XX.jpg/315px-Cadillac_Escalade_GMTT1XX.jpg');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2020 Toyato','$40,990','SUV','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPgXqY8KucuhNMaRnVRTPI5bYbMmNa5pjhzw&usqp=CAU');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2020 Toyato','$45,990','SUV','https://cdn.kalingatv.com/wp-content/uploads/2022/05/top-10-suv-under-20-lakhs.jpg');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2022 Ford F-150','$40,990','Sedan','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJeTWlaMosHy7iTae8XSSOjhvO4fqxV4ATAhgwMXjWRtyZnE4gBe0keI0sbniBTOazyks&usqp=CAU');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2016 Ford F-150','$10,990','Sedan','https://hips.hearstapps.com/hmg-prod/images/2024-ford-mustang-rendering-1652121017.jpg?crop=1.00xw:0.753xh;0,0.156xh&resize=300:*');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2019 Ford F-150','$20,990','Sedan','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY-VQOGSGE4E03m6GcXow42x0f_Z2GCcoMIXxbN7SryXoSlXYIsORoPDfSZtb4--8m5Y8&usqp=CAU');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2008 Van A-150','$20,990','Van','https://www.lotpro.com/Themes/Default/cars/15815.jpg');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2008 Van A-150','$20,990','Van','https://static.tcimg.net/vehicles/primary/122f4b2eb5fe71e0/2022-GMC-Savana_Cargo_Van-silver-full_color-driver_side_front_quarter.png');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2008 Van A-150','$20,990','Van','https://m.economictimes.com/thumb/msid-68843100,width-1200,height-900,resizemode-4,imgsize-118459/vans.jpg');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2008 Van A-150','$20,990','Van','https://media.istockphoto.com/photos/side-view-of-white-van-for-branding-with-clipping-path-picture-id1155665457?k=20&m=1155665457&s=612x612&w=0&h=HLl_NoorKcU9gI6guU-KHu57x-9JfUb0adGLqiaKLJY=');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2008 Truck A-150','$40,990','Truck','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1LI3zSZ24M27kBRRSRWlKGNggCJLdfP_KIF_4IjZLLiCdFyVC3iA_4-J4svghf7jQW2g&usqp=CAU');
+
+INSERT INTO subbrands(model,price,brand,image) VALUES ('2008 Truck A-150','$40,990','Truck','https://www.rushlane.com/wp-content/uploads/2020/12/tata-harrier-pick-up-render-600x338.jpg');
+
+-- PreOwned Cars
+
+use carvana;
+
+CREATE TABLE preOwnedCars(
+  id int auto_increment, primary key(id), model VARCHAR(255), actual_price VARCHAR(255), discount_price VARCHAR(255), km VARCHAR(255), cc VARCHAR(255), gear VARCHAR(255), hp VARCHAR(255), fuel_type VARCHAR(255), year VARCHAR(255) ,image text
+);
+
+INSERT INTO preOwnedCars(model,actual_price,discount_price,km,cc,gear,hp,fuel_type,year,image) VALUES ('2019 Ford Edge',"11999.00","11779.00",'130 000',"1800",'Manual',"190",'Petrol',"2008","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0njXfF_ipCtiNfjTh-a5BOJHm-r9nMkBQYAu7kxvp1oMcd-IurOdmAMaQGPymtvTVEr0&usqp=CAU");
+
+INSERT INTO preOwnedCars(model,actual_price,discount_price,km,cc,gear,hp,fuel_type,year,image) VALUES ('2018 Ford Mustang',"11999.00","11779.00",'130 000',"1800",'Manual',"190",'Petrol',"2008","https://images.ctfassets.net/dnsblpiud3hq/3AYI2PNvJuegCQ6iMIioYY/21569d2178b4776724b79ee0541fbe67/Ford_Mustang.jpg");
+
+INSERT INTO preOwnedCars(model,actual_price,discount_price,km,cc,gear,hp,fuel_type,year,image) VALUES ('2020 Hyundai Elantra',"11999.00","11779.00",'130 000',"1800",'Manual',"190",'Petrol',"2008","https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/2021_Hyundai_Elantra_Limited_%28United_States%29_front_view.png/1200px-2021_Hyundai_Elantra_Limited_%28United_States%29_front_view.png");
+
+INSERT INTO preOwnedCars(model,actual_price,discount_price,km,cc,gear,hp,fuel_type,year,image) VALUES ('2017 Chrysler Town & Country',"11999.00","11779.00",'130 000',"1800",'Manual',"190",'Petrol',"2008","https://i.ytimg.com/vi/0i7XI3WzcEg/mqdefault.jpg");
+
+INSERT INTO preOwnedCars(model,actual_price,discount_price,km,cc,gear,hp,fuel_type,year,image) VALUES ('2019 BMW i4',"11999.00","11779.00",'130 000',"1800",'Manual',"190",'Petrol',"2008","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvrRRcssRosGPxDSM6MrMvwfJgEcN324SqBQQGZml3fnAtInQyGtSS6gB5pLpgFJOl-68&usqp=CAU");
+
+INSERT INTO preOwnedCars(model,actual_price,discount_price,km,cc,gear,hp,fuel_type,year,image) VALUES ('2016 Kia Sorento',"11999.00","11779.00",'130 000',"1800",'Manual',"190",'Petrol',"2008","https://mc.webpcache.epapr.in/mcms.php?size=large&in=https://mcmscache.epapr.in/post_images/website_300/post_15328592/thumb.jpg");
+
+select * from preOwnedCars;
+
+-- Contact US
+
+use carvana;
+
+CREATE TABLE contactUs(
+  id int auto_increment, primary key(id), name VARCHAR(255), subject VARCHAR(255) ,message text
+);
